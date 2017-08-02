@@ -13,7 +13,7 @@ issues = jira.search_issues('''assignee = currentUser()
                             AND type != Epic''')
 
 status_to_emoji = {
-  'Blocked': ':scream:',
+  'Blocked': ':dumpster_fire:',
   'In Progress': ':sunglasses:',
   'Open': ':doge:',
   'Soft Launch': ':pray:',
